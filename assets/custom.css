@@ -20,6 +20,14 @@ body {
   color: white;
 }
 
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
 main {
 	/* height of header */
 	margin-top: 55px;	
