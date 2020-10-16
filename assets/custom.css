@@ -1,3 +1,10 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  color: white;
+
 main {
 	/* height of header */
 	margin-top: 55px;	
