@@ -13,7 +13,7 @@
   </head>
 
   <body>
-<header>
+     <header>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 		  <a class="navbar-brand" href="#">Recipe Finder</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +28,49 @@
 		  </div>
 		</nav>
 	</header>
+     <main role="main">
+		<!-- Jumbotron -->
+		<div class="jumbotron jumbotron-image jumbotron-fluid">
+			<div class="container">		
+				<div class="row justify-content-center" id="searchContainer">
+					<div class="col col-12 col-sm-10 col-md-6">
+						<div class="mx-auto text-center">
+							<h1>Find your perfect recipe</h1>
+						</div>
+						<div class="input-group mb-3">
+							<input type="text" class="form-control col-12" placeholder="Recipe" id="searchInput">
+							<button class="btn btn-primary col-12" type="button" id="search">Search</button>
+						</div>				
+					</div>
+				</div>		
+			</div>
+		</div>
+		
+		<div class="container">		
+			<div class="row" id="results"></div>
+		</div>		
+		
+		<div id="template-result" class="d-none">
+			<div class="recipe-result col-12 col-sm-6 col-md-4 mt-4 align-self-stretch">
+				<div class="card border-light">
+					<img class="card-img-top recipe-img222" src=""/>
+					<h4 class="card-header">header</h4>
+					<div class="card-body">	  
+						<dl class="row">
+							<dt class="col-sm-6">Servings</dt>
+							<dd class="col-sm-6 servings"></dd>
+								
+							<dt class="col-sm-6">Time to make</dt>
+							<dd class="col-sm-6 time"></dd>
+						</dl>
+					</div>
+					<div class="card-footer">
+						<a href="#" class="btn btn-primary col-12" target="_blank">Recipe</a>
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
     <footer>
     </footer>	
 	
