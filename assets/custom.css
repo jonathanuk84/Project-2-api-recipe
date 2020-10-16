@@ -1,3 +1,13 @@
+main {
+	/* height of header */
+	margin-top: 55px;	
+}
+
+.jumbotron {
+	color: white;	
+	height: 500px;
+}
+
 .jumbotron-image {
   background-image: url('../assets/media/237798-P2RB6K-940.jpg');
   background-position: center center;
