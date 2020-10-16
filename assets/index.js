@@ -22,7 +22,7 @@ $( document ).ready(function() {
 					templateClone.find("img").attr('src', recipeSrc);
 					templateClone.find(".card-title").text(recipe.title);
 					templateClone.find(".card-header").text(recipe.title);
-					templateClone.find("a").attr('href', recipe.sourceUrl);
+					templateClone.find("a").attr('href', "https://www.allrecipes.com/search/results/?wt=" + recipe.sourceUrl);
 					templateClone.find(".servings").text(recipe.servings);
 					templateClone.find(".time").text(recipe.readyInMinutes);
 					
