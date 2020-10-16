@@ -5,7 +5,6 @@ html {
   min-height: 100%;
   color: white;
 }
-
 body {
   margin-bottom: 150px;
   color: white;
@@ -19,6 +18,7 @@ body {
   background-color: #343a40;
   color: white;
 }
+
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -43,4 +43,9 @@ main {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
 }
