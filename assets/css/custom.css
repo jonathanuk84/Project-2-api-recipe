@@ -1,22 +1,22 @@
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
-  color: white;
+    position: relative;
+    min-height: 100%;
+    color: white;
 }
 body {
-  margin-bottom: 150px;
-  color: white;
-  background-color: lightgrey;
+    margin-bottom: 150px;
+    color: white;
+    background-color: lightgrey;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  min-height: 60px;
-  background-color: #343a40;
-  color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    background-color: #343a40;
+    color: white;
 }
 
 
@@ -25,12 +25,12 @@ body {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 60px 15px 0;
+    padding: 60px 15px 0;
 }
 
 main {
-	/* height of header */
-	margin-top: 55px;	
+    /* height of header */
+    margin-top: 55px;	
 }
 
 .jumbotron {
@@ -41,11 +41,11 @@ main {
 .jumbotron-image {
     background-image:
     linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),
-    url('../assets/media/237798-P2RB6K-940.jpg');
+    url('/assets/media/237798-P2RB6K-940.jpg');
     background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
 }
 
 #searchContainer {
@@ -53,8 +53,8 @@ main {
 }
 
 .footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .recipe-result{	
