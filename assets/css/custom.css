@@ -5,11 +5,13 @@ html {
     min-height: 100%;
     color: white;
 }
+
 body {
     margin-bottom: 150px;
     color: white;
     background-color: lightgrey;
 }
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -22,7 +24,6 @@ body {
 
 /* Custom page CSS
 -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
 
 body > .container {
     padding: 60px 15px 0;
